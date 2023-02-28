@@ -38,7 +38,6 @@ font-family: 'Source Serif Pro', serif; */
     margin-top: 10px;
 }
 
-
 .header-section .navbar li{
     list-style: none;
 }
@@ -365,8 +364,14 @@ font-family: 'Source Serif Pro', serif; */
 
 @media (max-width:450px) {
     
+    
+    
+    .header-section .navbar.active{
+        right:  0px;
+    }
+
     .team-banner-img img {   
-        width: 23%;
+        width: 30%;
     }
 
     .team-banner-text h1 {
@@ -453,24 +458,38 @@ font-family: 'Source Serif Pro', serif; */
         position: fixed;
         top: 0;
         right: -400px;
-        height: 80vh;
+        height: 35vh;
         width: 250px;
         background-color: rgb(224, 221, 221);
         box-shadow: 0 40px 60px rgba(0, 0, 0,  0.1);
         padding: 40px 0 0 20px;
+        transition: .3s;
+    }
+    
+    .header-section .navbar.active{
+        right:  0px;
     }
     
 
     .header-section .navbar li {
-       margin-bottom: 20px;     
+        margin-bottom: 25px;
+        margin-top: 20px;     
     }
 
-    .mobile{
+    .mobile {
+        font-size: 24px;
         display: flex;
-        margin-right: 20px;
+        margin-right: 100px;
         margin-top: 10px;
     }
     
+    #close{
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 26px;
+        color: #df0000;
+    }
 
     .banner-img img{
         width: 100%;
