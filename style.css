@@ -264,4 +264,38 @@ font-family: 'Source Serif Pro', serif; */
     padding-left: 165px;
  }
 
- 
+ .new-div{
+    display: flex;
+  
+    margin: 50px 0;
+ }
+ .new-div .part1{
+    width: 30%;
+    background-color: #e96db4;
+    padding: 30px;
+   margin: 0 115px;
+    box-sizing: border-box;
+    /* font-size: 17px; */
+    border-radius: 8px;
+ }
+
+ .new-div .part-2{
+    background-color: #ffc13b;
+ }
+
+ #part2{
+    background-color: #ffc13b;
+    width: 30%;
+ }
+
+ #part3{
+    width: 30%;
+    font-size: 20px;
+ }
+ #part3 button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f39a16;
+    color: #000000;
+    font-size: 25px;
+ }
