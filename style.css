@@ -481,6 +481,7 @@ font-family: 'Source Serif Pro', serif; */
         display: flex;
         margin-right: 100px;
         margin-top: 10px;
+        cursor: pointer;
     }
     
     #close{
