@@ -139,7 +139,7 @@ font-family: 'Source Serif Pro', serif; */
 }
 /* team-banner-section-end-here */
 
-
+/* Features-section-start-here */
 .feature-section{
     display: flex;
     margin : 130px;
@@ -171,29 +171,65 @@ font-family: 'Source Serif Pro', serif; */
     font-size: 18px;
     font-family: sans-serif;
 }
-.exp-text .text-div{
+
+.exp-text  {
     margin: 30px;
 }
+
 .exp-text .text-div h2{
     font-size: 30px;
+    margin-left: 48px;
+    margin-top: 30px;
 }
 
-
+.exp-text .text-div p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: auto;
+    color: #6e6e6e;
+}
 
 .feature-section .experience{
     position: relative;
     background-color: #f39a16;
     padding: 35px;
-    height: 145px;
+    height: 150px;
     border-radius: 8px;
-    top: 240px;
+    top: 375px;
     left: 20px;
+    color: #fff;
+    text-align: center;
 }
      
  .experience h1{
     font-size: 35px;
 }
+/* Features-section-end-here */
  
- 
+ .fact-section .fact-1{
+    margin:40px 0 40px 130px;
+ }
+
+ .fact-section .fact-1 h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .fact-section .fact-1 p{
+    font-size: 20px;
+    font-family: auto;
+    color: #6e6e6e;
+ }
+ .fact-section .fact-2{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 0 20px 140px;
+ }
 
 
+ .fact-section .fact-2 .div{
+    padding: 40px;
+    border: 1px solid #f39a16;
+    border-radius: 8px;
+    text-align: center;
+ }
