@@ -60,7 +60,9 @@ font-family: 'Source Serif Pro', serif; */
 .mobile{
     display: none;
 }
-
+#close{
+    display: none;
+}
 
 
 /* header-section-end-here */
@@ -485,6 +487,7 @@ font-family: 'Source Serif Pro', serif; */
     }
     
     #close{
+        display: flex;
         position: absolute;
         top: 15px;
         left: 10px;
